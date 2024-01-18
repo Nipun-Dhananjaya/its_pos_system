@@ -1,0 +1,129 @@
+header {
+    position: sticky;
+    top: 0;
+}
+
+/*main > select details inputs*/
+#select-order-detail {
+    border: 1px solid #E9B824;
+    margin: 3px 10px ;
+    padding: 0 0 50px 0;
+    top: 85px;
+    background-color: white;
+}
+
+/*title*/
+#title {
+    background-color: #E9B824;
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+p {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 3px;
+}
+form>div>div>div>input {
+    margin-bottom: 10px;
+}
+label {
+    font-weight: bold;
+}
+
+/*add-remove-btns*/
+#add-remove-btns {
+    position: absolute;
+    right: 20px;
+}
+#table {
+    margin: 20px 10px 0 10px;
+    border: 1px solid #E9B824;
+}
+#shop-name {
+    width: fit-content;
+    height: fit-content;
+    margin: -1px 10px 0 -10px;
+}
+#shop-name>span {
+    font-size: 25px;
+    color: #E9B824;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*total label*/
+#total {
+    position: absolute;
+    right: 5vw;
+    margin-top: 15px;
+}
+#purchase-order-btn {
+    position: absolute;
+    right: 200px;
+    margin-top: 12px;
+    /*padding-bottom: 10px;*/
+}
+#purchase-order-btn:hover {
+    color: #E9B824;
+    background-color: white;
+    border: 1px solid #E9B824;
+}
+
+/*popup modal for place order*/
+#purchase-model-header>h1 {
+    letter-spacing: 0.1vw;
+}
+
+#purchase-model-body {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#purchase-model-body>input {
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+#purchase-model-body>input:hover {
+    background-color: whitesmoke;
+}
+#purchase-model-body>label {
+    margin-top: 3px;
+}
+#place-order {
+    width: 140px;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #E9B824;
+    border: 2px solid #E9B824;
+}
+#btn-order {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#place-order:hover {
+    background-color: white;
+    border: 2px solid #E9B824;
+    color: #E9B824;
+
+}
+#purchase-model-header {
+    background-color: #E9B824;
+}
+
+#purchase-model {
+    margin-top: 75px;
+}
